@@ -7,7 +7,8 @@ margin-left:-4px;
 background-color: blue;
 }
 .col-md-3 img{
-height:auto;
+    height: 200px;
+    width: 200px;
 }
 body .carousel-indicator li{
 background-color: blue;
