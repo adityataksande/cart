@@ -15,7 +15,7 @@ def index(request):
 
     # params = {'no_of_slides':nSlides, 'range': range(1,nSlides),'product': products}
     # allProds = [[products, range(1, nSlides), nSlides],
-    #             [products, range(1, nSlides), nSlides]]
+    #             [products, range(1, nSlides), nSlides]] 
     params = {'allProds': allProds}
     return render(request, 'shop/index.html', params)
 
