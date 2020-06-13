@@ -24,3 +24,14 @@ body .no-padding{
 padding-left: 0;
 padding-right: 0;
 }
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+background-color: blue;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+top: auto;
+bottom: auto;
+          }

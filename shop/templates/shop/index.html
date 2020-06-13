@@ -9,8 +9,8 @@
 {% comment %} carousel starts here {% endcomment %}
 <div class="container">
 
-      {% comment %} Slideshow starts here{% endcomment %}
-{% for product, range, nSlides in allProds %}
+    <!--Slideshow starts here -->
+    {% for product, range, nSlides in allProds %}
     <h5 class="my-4">Flash Sale On {{product.0.category}} - Recommended Items</h5>
 <div id="demo{{forloop.counter}}" class="carousel slide my-3" data-ride="carousel">
     <ul class="carousel-indicators">
